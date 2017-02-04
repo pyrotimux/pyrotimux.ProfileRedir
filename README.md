@@ -1,6 +1,6 @@
 win_profile_redir
 =========
-
+[![Build Status](https://travis-ci.org/pyrotimux/win_profile_redir.png?branch=master)](https://travis-ci.org/pyrotimux/win_profile_redir)
 Windows Profile Redirection.
 
 Requirements
