@@ -1,0 +1,13 @@
+---
+  fold_ls:
+    - { from: 'Desktop', to: 'Desktop' }
+    - { from: 'Documents', to: 'Documents' }
+    - { from: 'Personal', to: 'Documents' }
+    - { from: 'Personal', to: 'Documents' }
+    - { from: 'Favorites', to: 'Favorites' }
+    - { from: 'Music', to: 'Music' }
+    - { from: 'My Music', to: 'Music' }
+    - { from: 'Pictures', to: 'Pictures' }
+    - { from: 'My Pictures', to: 'Pictures' }
+    - { from: 'Video', to: 'Video' }
+    - { from: 'My Video', to: 'Video' }
