@@ -1,6 +1,6 @@
 win_profile_redir
 =========
-[![Build Status](https://travis-ci.org/pyrotimux/win_profile_redir.png?branch=master)](https://travis-ci.org/pyrotimux/win_profile_redir)
+[![Build Status](https://travis-ci.org/pyrotimux/pyrotimux.ProfileRedir.png?branch=master)](https://travis-ci.org/pyrotimux/pyrotimux.ProfileRedir)
 Windows Profile Redirection.
 
 Requirements
@@ -19,7 +19,7 @@ Please pass in the variable below. Example is shown below.
     - { name: 'sanban', pass: 'sanV@gran7'}
     - { name: 'yonban', pass: 'yonV@gran7'}
 
-# name of the file server.
+# name of the file server and path.
   file_server: KGSTRGUTL\\c$
 ```
 
