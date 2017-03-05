@@ -20,7 +20,7 @@ Please pass in the variable below. Example is shown below.
     - { name: 'yonban', pass: 'yonV@gran7'}
 
 # name of the file server.
-  file_server: KGSTRGUTL
+  file_server: KGSTRGUTL\\c$
 ```
 
 Dependencies
