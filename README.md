@@ -19,8 +19,9 @@ Please pass in the variable below. Example is shown below.
     - { name: 'sanban', pass: 'sanV@gran7'}
     - { name: 'yonban', pass: 'yonV@gran7'}
 
-# name of the file server and path.
-  file_server: KGSTRGUTL\\c$
+# name of the file server and path. 
+# If my file server is KGSTRGUTL and drive is c$ and path is profiles then
+  file_server: KGSTRGUTL\\c$\\profiles
 ```
 
 Dependencies
