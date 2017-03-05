@@ -5,7 +5,7 @@
       Force: True
       Key: "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders\\"
       ValueName: "{{ item[1].from }}"
-      ValueData: "\\\\{{ file_server }}\\c$\\profiles\\{{ item[0].name  }}\\{{ item[1].to }}"
+      ValueData: "\\\\{{ file_server }}\\{{ item[0].name  }}\\{{ item[1].to }}"
       PsDscRunAsCredential_username: "{{ item[0].name }}"
       PsDscRunAsCredential_password: "{{ item[0].pass }}"
     with_nested:
